@@ -63,8 +63,8 @@ jobs:
           # Delete the .github directory, it has served its purpose
           rm -rf .github/
           shopt -s dotglob
-          # Move generated content to root directory of repo
-          mv /tmp/$REPO_NAME/* .
+          # Move template content to root, ensure hidden and README are replaced
+          rsync -a /tmp/$REPO_NAME/ .
 
       - name: Force push changes to main
         uses: stefanzweifel/git-auto-commit-action@v4
