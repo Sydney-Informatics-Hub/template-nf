@@ -60,8 +60,9 @@ jobs:
             github_username="$(echo $INFO | jq -r .repository.owner.login)" \
             author_name="$(echo $INFO | jq -r .repository.owner.name)"
           popd
-          # Delete the .github directory, it has served its purpose
+          # Delete the .github directory and README, they're not needed anymore
           rm -rf .github/
+          rm -rf README.md
           shopt -s dotglob
           # Move template content to root, ensure hidden and README are replaced
           rsync -a /tmp/$REPO_NAME/ .
@@ -69,5 +70,5 @@ jobs:
       - name: Force push changes to main
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Initial template structure"
+          commit_message: "Build skeleton template"
           push_options: "--force"
