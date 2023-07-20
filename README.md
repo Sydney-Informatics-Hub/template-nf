@@ -23,9 +23,31 @@ It is not suitable for:
 * Those creating simple or single-task workflows with only a few tasks and minimal complexity.
 * Those with no previous command-line and bash experience.
 
-## **How to create a template?** 
+## **How to use the template?** 
 
 Once you create a new repository using this template, a GitHub Action workflow will automatically be deployed. This workflow will populate your new repository with the skeleton template directory. To create a new repository: 
+
+1. On this page, select the 'Use this template' button, and select the green 'Create new repository' button: 
+
+![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/89ccd998-3706-4c4a-955f-66ed427efbf8)
+
+2. You'll be taken to a new page where you can configure your new repository. Ensure the 'Include all branches' box is unticked, give your workflow a name, a description (optional), and select whether it should be public or private. Then hit the green 'Create repository' button: 
+
+![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/c77e1ae5-a143-4ab9-8a19-8bd1f6de728e)
+
+3. You'll be taken to your new repository page. It will appear like nothing has happened, take note of the brown dot on the top of the code tab/section on this page. This indicates that the GitHub Action is working, if you select it you can observe its progress as it repopulates your repository with the template. It may take a few seconds to run: 
+
+![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/bdd62583-514c-493c-ae7d-07854e6e4ff2)
+
+4. Once this brown dot is replaced by a green tick the Action has successfully completed and your repository will be populated with the Nextflow template code base. You may need to refresh your page to observe these changes: 
+
+![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/26a751f1-67f3-4cea-afda-966b894359c4)
+
+5. Once your repository has been populated with the template code base, you can open it on your CLI environment and develop your workflow. For example: 
+
+```
+git clone https://github.com/georgiesamaha/myWorkflow-nf.git
+```
 
 ### [User guide](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) 
 
@@ -34,7 +56,6 @@ Please see our [documentation](https://sydney-informatics-hub.github.io/Nextflow
 ### Install Nextflow
 
 Depending on the system you're working on there are a few options for installing and running Nextflow including software management tools like bioconda and Singularity. See [here](https://www.nextflow.io/docs/latest/getstarted.html#installation) for installation instructions. Once you have installed Nextflow, you can configure it to run on your system if needed. 
-
 
 ## **Acknowledgements** 
 
