@@ -29,19 +29,19 @@ Once you create a new repository using this template, a GitHub Action workflow w
 
 1. On this page, select the 'Use this template' button, and select the green 'Create new repository' button: 
 
-![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/89ccd998-3706-4c4a-955f-66ed427efbf8)
+![](./Images/01_usetemplate.png)
 
 2. You'll be taken to a new page where you can configure your new repository. Ensure the 'Include all branches' box is unticked, give your workflow a name, a description (optional), and select whether it should be public or private. Then hit the green 'Create repository' button: 
 
-![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/c77e1ae5-a143-4ab9-8a19-8bd1f6de728e)
+![](./Images/02_newrepo.png)
 
 3. You'll be taken to your new repository page. It will appear like nothing has happened, take note of the brown dot on the top of the code tab/section on this page. This indicates that the GitHub Action is working, if you select it you can observe its progress as it repopulates your repository with the template. It may take a few seconds to run: 
 
-![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/bdd62583-514c-493c-ae7d-07854e6e4ff2)
+![](./Images/03_action.png)
 
 4. Once this brown dot is replaced by a green tick the Action has successfully completed and your repository will be populated with the Nextflow template code base. You may need to refresh your page to observe these changes: 
 
-![](https://github.com/georgiesamaha/myWorkflow-nf/assets/73086054/26a751f1-67f3-4cea-afda-966b894359c4)
+![](./Images/04_template.png)
 
 5. Once your repository has been populated with the template code base, you can open it on your CLI environment and develop your workflow. For example: 
 
