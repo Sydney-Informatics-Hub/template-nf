@@ -61,7 +61,8 @@ jobs:
             author_name="$(echo $INFO | jq -r .repository.owner.name)"
           popd
           # Delete the .github directory and README, they're not needed anymore
-          rm -rf .github/
+          rm -rf .github/ 
+          rm -rf Images/
           rm -rf README.md
           shopt -s dotglob
           # Move template content to root, ensure hidden and README are replaced
