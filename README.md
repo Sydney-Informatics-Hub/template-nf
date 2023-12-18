@@ -1,6 +1,6 @@
 # template-nf
 
-This is a Nextflow workflow template generator. This template is under development, with further features and improved documentation to be added. 
+This is a Nextflow workflow template generator. 
 
 ## **Why use this template?** 
 
@@ -51,11 +51,15 @@ git clone https://github.com/georgiesamaha/myWorkflow-nf.git
 
 ### [User guide](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) 
 
-Please see our [documentation](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) for instructions on how to use the template code base to build your workflow.
+Please see our [documentation](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) for instructions on how to use the template code base to build your workflow. 
 
 ### Install Nextflow
 
 Depending on the system you're working on there are a few options for installing and running Nextflow including software management tools like bioconda and Singularity. See [here](https://www.nextflow.io/docs/latest/getstarted.html#installation) for installation instructions. Once you have installed Nextflow, you can configure it to run on your system if needed. 
+
+## **Additional resources**
+
+* [Workflow documentation guidelines](https://github.com/AustralianBioCommons/doc_guidelines)
 
 ## **Acknowledgements** 
 
