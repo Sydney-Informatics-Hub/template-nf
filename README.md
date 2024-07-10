@@ -23,6 +23,33 @@ It is not suitable for:
 * Those creating simple or single-task workflows with only a few tasks and minimal complexity.
 * Those with no previous command-line and bash experience.
 
+## **How is this template structured?**
+
+The template’s code repository is organised into a number of files and directories (see [documentation](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) for details):
+```
+myWorkflow-nf
+├── .github/ISSUE_TEMPLATE
+├── assets
+├── bin
+    └── samplesheetchecker.py
+├── config
+    ├── gadi.config
+    ├── nimbus.config
+    ├── setonix.config
+    └── standard.config
+├── modules
+|   ├── check_input.nf
+│   ├── process1.nf
+│   └── process2.nf
+├── .gitignore
+├── LICENSE
+├── README.md
+├── main.nf
+└── nextflow.config
+```
+
+If you'd like to stickybeak before cloning this repository, you can view the codebase [here](https://github.com/Sydney-Informatics-Hub/Nextflow_DSL2_template/tree/main/%7B%7Bcookiecutter.app_name%7D%7D).
+
 ## **How to use the template?** 
 
 Once you create a new repository using this template, a GitHub Action workflow will automatically be deployed. This workflow will populate your new repository with the skeleton template directory. To create a new repository: 
