@@ -52,6 +52,22 @@ If you'd like to stickybeak before cloning this repository, you can view the cod
 
 ## **How to use the template?** 
 
+### **Quickstart**
+
+1. Click the 'Use this template' button on this page to create a new repository using this template.
+2. Clone your new repository to your workspace. 
+3. Ensure Nextflow is [installed on your system](https://www.nextflow.io/docs/latest/getstarted.html#installation). 
+4. Navigate to the repository directory on your terminal.
+5. Run the demo workflow in your terminal and explore outputs [optional]. See the [user guide](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) for more information: 
+
+```
+nextflow run main.nf --input assets/samplesheet.csv
+```
+
+6. Develop your workflow by modifying the `main.nf` and `modules` files. Remove the demo processes in the `modules/` directory and `main.nf` and replace with your own. 
+
+### **User guide**
+
 Once you create a new repository using this template, a GitHub Action workflow will automatically be deployed. This workflow will populate your new repository with the skeleton template directory. To create a new repository: 
 
 1. On this page, select the 'Use this template' button, and select the green 'Create new repository' button: 
