@@ -31,16 +31,16 @@ myWorkflow-nf
 ├── .github/ISSUE_TEMPLATE
 ├── assets
 ├── bin
-    └── samplesheetchecker.py
 ├── config
     ├── gadi.config
     ├── nimbus.config
     ├── setonix.config
     └── standard.config
 ├── modules
-|   ├── check_input.nf
-│   ├── process1.nf
-│   └── process2.nf
+|   ├── check_input.nf (demo)
+│   ├── generate_report.nf (demo)
+│   ├── group_samples.nf (demo)
+│   └── template_process.nf
 ├── .gitignore
 ├── LICENSE
 ├── README.md
