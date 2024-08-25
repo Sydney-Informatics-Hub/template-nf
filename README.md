@@ -29,9 +29,11 @@ The template’s code repository is organised into a number of files and directo
 ```
 myWorkflow-nf
 ├── .github/ISSUE_TEMPLATE
-├── assets
-├── bin
-├── config
+├── assets/
+│   └── samplesheet.csv (demo)
+├── bin/
+│   └── samplesheetchecker.sh (demo)
+├── config/
     ├── gadi.config
     ├── nimbus.config
     ├── setonix.config
