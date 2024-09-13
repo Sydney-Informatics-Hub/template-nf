@@ -67,9 +67,9 @@ Once you create a new repository using this template, a GitHub Action workflow w
 git clone https://github.com/georgiesamaha/myWorkflow-nf.git
 ```
 
-### [User guide](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) 
+### User guide
 
-Please see our [documentation](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) for instructions on how to use the template code base to build your workflow. 
+Please see the [template guide](https://sydney-informatics-hub.github.io/template-nf-guide/) for instructions on how to use the template code base to build your workflow. 
 
 ### Install Nextflow
 
