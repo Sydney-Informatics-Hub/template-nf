@@ -1,6 +1,6 @@
 # template-nf
 
-This is a Nextflow workflow template generator. 
+This is a Nextflow workflow template generator. See our guide: https://sydney-informatics-hub.github.io/template-nf-guide/. 
 
 ## **Why use this template?** 
 
@@ -22,33 +22,6 @@ It is not suitable for:
 * Those wishing to create and contribute to public nf-core workflows, as it is not nf-core compatible.
 * Those creating simple or single-task workflows with only a few tasks and minimal complexity.
 * Those with no previous command-line and bash experience.
-
-## **How is this template structured?**
-
-The template’s code repository is organised into a number of files and directories (see [documentation](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) for details):
-```
-myWorkflow-nf
-├── .github/ISSUE_TEMPLATE
-├── assets/
-│   └── samplesheet.csv (demo)
-├── bin/
-│   └── samplesheetchecker.sh (demo)
-├── config/
-    ├── gadi.config
-    ├── nimbus.config
-    ├── setonix.config
-    └── standard.config
-├── modules
-|   ├── check_input.nf (demo)
-│   ├── generate_report.nf (demo)
-│   ├── group_samples.nf (demo)
-│   └── template_process.nf
-├── .gitignore
-├── LICENSE
-├── README.md
-├── main.nf
-└── nextflow.config
-```
 
 If you'd like to stickybeak before cloning this repository, you can view the codebase [here](https://github.com/Sydney-Informatics-Hub/Nextflow_DSL2_template/tree/main/%7B%7Bcookiecutter.app_name%7D%7D).
 
