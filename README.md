@@ -31,9 +31,9 @@ If you'd like to stickybeak before cloning this repository, you can view the cod
 
 1. Click the 'Use this template' button on this page to create a new repository using this template.
 2. Clone your new repository to your workspace.
-3. Ensure Nextflow is [installed on your system](https://www.nextflow.io/docs/latest/getstarted.html#installation).
+3. Ensure Nextflow is [installed on your system](https://docs.seqera.io/nextflow/install).
 4. Navigate to the repository directory on your terminal.
-5. Run the demo workflow in your terminal and explore outputs [optional]. See the [user guide](https://sydney-informatics-hub.github.io/Nextflow_DSL2_template_guide/) for more information:
+5. Run the demo workflow in your terminal and explore outputs [optional]. See the [user guide](https://sydney-informatics-hub.github.io/template-nf-guide/) for more information:
 
 ```bash
 nextflow run main.nf --input assets/samplesheet.csv
@@ -73,7 +73,7 @@ Please see the [template guide](https://sydney-informatics-hub.github.io/templat
 
 ### Install Nextflow
 
-Depending on the system you're working on there are a few options for installing and running Nextflow including software management tools like bioconda and Singularity. See [here](https://www.nextflow.io/docs/latest/getstarted.html#installation) for installation instructions. Once you have installed Nextflow, you can configure it to run on your system if needed.
+Depending on the system you're working on there are a few options for installing and running Nextflow including software management tools like bioconda and Singularity. See [here](https://docs.seqera.io/nextflow/install) for installation instructions. Once you have installed Nextflow, you can configure it to run on your system if needed.
 
 ## Additional resources
 
